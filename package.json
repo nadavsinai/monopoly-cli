@@ -1,0 +1,37 @@
+{
+	"name": "@monopoly/cli",
+	"version": "1.0.0-beta.1",
+	"description": "A CLI tool to work with the multiple repos as a monorepo",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"prepare": "tsc",
+		"dev": "tsc -w",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"mp": "dist/index.js"
+	},
+	"keywords": [
+		"CLI",
+		"workspace",
+		"git"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nadavsinai/monopoly-cli"
+	},
+	"author": "Nadav Sinai",
+	"license": "MIT",
+	"dependencies": {
+		"@monopoly/core": "1.0.0-beta.10",
+		"@octokit/rest": "^15.12.1",
+		"lodash": "^4.17.11",
+		"tslib": "^1.9.3"
+	},
+	"devDependencies": {
+		"typescript": "3.1.1",
+		"@types/node": "^8.0.50",
+		"@types/lodash": "^4.14.116"
+	}
+}
