@@ -1,10 +1,10 @@
 import {
 	BranchListSearchResult, DependenciesSearchResult, Logger, RepoApiInterface, repoList, RepoListResults, repoResult
 } from "@monopoly/core";
-import * as GitHub from '@octokit/rest'
-import * as get from 'lodash/get'
-import *as groupBy from 'lodash/groupBy'
-import *as transform from 'lodash/transform'
+import GitHub from '@octokit/rest'
+import get from 'lodash/get'
+import groupBy from 'lodash/groupBy'
+import transform from 'lodash/transform'
 import {ReposGetResponse} from "@octokit/rest";
 
 const gitHub = new GitHub({

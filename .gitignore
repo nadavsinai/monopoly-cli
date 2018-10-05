@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+# intelliJ
+.idea
+# build artifacts
+dist
