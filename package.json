@@ -24,8 +24,10 @@
 	"author": "Nadav Sinai",
 	"license": "MIT",
 	"dependencies": {
-		"@monopoly/core": "1.0.0-beta.10",
-		"@octokit/rest": "^15.12.1",
+		"@monopoly/core": "file://../monopoly-core",
+		"@octokit/rest": "~16.0.5",
+		"clortho": "git+http://github.com/nadavsinai/clortho#v1.3.2",
+		"username": "^4.0.0",
 		"lodash": "^4.17.11",
 		"tslib": "^1.9.3"
 	},
