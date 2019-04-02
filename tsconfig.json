@@ -4,7 +4,8 @@
 		"baseUrl": "./src/",
 		"outDir": "dist",
 		"typeRoots": [
-			"node_modules/@types"
+			"node_modules/@types",
+			"../node_modules/@types"
 		],
 		"module": "commonjs",
 		"moduleResolution": "node",
