@@ -27,12 +27,12 @@
 		"@monopoly/core": "~1.0.4",
 		"@octokit/rest": "~16.0.5",
 		"clortho": "git+http://github.com/nadavsinai/clortho#v1.3.2",
-		"username": "^4.0.0",
+		"username": "^5.1.0",
 		"lodash": "^4.17.11",
-		"tslib": "^1.9.3"
+		"tslib": "^1.10.0"
 	},
 	"devDependencies": {
-		"typescript": "3.1.1",
+		"typescript": "~3.5.3",
 		"@types/node": "^8.0.50",
 		"@types/lodash": "^4.14.116"
 	}

@@ -11,7 +11,7 @@ export interface Credentials {
 export const SERVICE_NAME = 'monopoly-CLI';
 const loginPrompt = clortho.forService(SERVICE_NAME);
 
-const usernameFromOS = process.env.MP_USER ? process.env.MP_USER as string : username.sync().toLowerCase();
+const usernameFromOS = process.env.MP_USER ? process.env.MP_USER as string : (username.sync() || '').toLowerCase();
 
 export class GithubAuthHandler extends BaseCommand implements AuthHandler {
 	protected inProgress: boolean = false;
