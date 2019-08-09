@@ -1,6 +1,6 @@
 {
 	"name": "@monopoly/cli",
-	"version": "1.0.0-beta.1",
+	"version": "1.0.0-beta.2",
 	"description": "A CLI tool to work with the multiple repos as a monorepo",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -24,7 +24,7 @@
 	"author": "Nadav Sinai",
 	"license": "MIT",
 	"dependencies": {
-		"@monopoly/core": "~1.0.4",
+		"@monopoly/core": "~1.1.1",
 		"@octokit/rest": "~16.0.5",
 		"clortho": "git+http://github.com/nadavsinai/clortho#v1.3.2",
 		"username": "^5.1.0",
